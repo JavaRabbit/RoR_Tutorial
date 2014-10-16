@@ -52,3 +52,5 @@ group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails', '2.13.1'
 end
+
+gem  'minitest'
