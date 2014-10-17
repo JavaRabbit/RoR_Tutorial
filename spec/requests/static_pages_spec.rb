@@ -43,4 +43,19 @@ describe "About page" do
   end
 end
 
+describe "Contact page" do
+  it "should have a Contact page" do
+    visit '/static_pages/contact'
+    expect(page).to have_content("Contact")
+  end
+end
+
+describe "Blog page" do
+  it "should have a Blog page" do
+    visit '/static_pages/blog'
+    expect(page).to have_content("Blog")
+  end
+end
+
+
 end
